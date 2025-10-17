@@ -1,0 +1,37 @@
+PYTHON-nome:str = "Maria"
+idade:int = 16
+altura:float = 1.65
+ativo: bool = True 
+
+JAVASCRIPT-let nome = "Maria"; // string 
+let idade = idade 16; // number (inteiro)
+let altura = 1.65; // number (decimal)
+let ativo = true; // boolean
+
+PYTHON-a + b soma
+a - b subtrao
+a * b multiplicao
+a / b divisao
+Operadores logicos
+a and b
+not a 
+a or b 
+
+JAVASCRIPT-a + b // soma
+a - b // subtrao
+a * b // multiplicao
+a / b // diviso
+// Operadores logicos:
+a % b
+!a
+a || b 
+
+if idade >= 18:
+   print("Maior de idade")
+elif idade >= 16:
+   print("Pode votar")
+else:
+   print("Menor de idade")
+
+if (idade >= 18) {
+   console.log("Maior de idade");
