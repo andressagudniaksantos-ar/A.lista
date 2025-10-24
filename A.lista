@@ -1,30 +1,29 @@
-PYTHON-nome:str = "Maria"
-idade:int = 16
-altura:float = 1.65
-ativo: bool = True 
+nome: str = "Maria"
+idade: int = 16
+altura: float = 1.65
+ativo: bool = True
 
-JAVASCRIPT-let nome = "Maria"; // string 
-let idade = idade 16; // number (inteiro)
+let nome = "Maria"; // string
+let idade = 16; // number (inteiro)
 let altura = 1.65; // number (decimal)
 let ativo = true; // boolean
 
-PYTHON-a + b soma
-a - b subtrao
-a * b multiplicao
-a / b divisao
-Operadores logicos
+a + b
+a - b
+a * b
+a / b
 a and b
-not a 
-a or b 
+not a
+a or b
 
-JAVASCRIPT-a + b // soma
+a + b // soma
 a - b // subtrao
 a * b // multiplicao
 a / b // diviso
-// Operadores logicos:
-a % b
+// Operadores lgicos:
+a && b
 !a
-a || b 
+a || b
 
 if idade >= 18:
    print("Maior de idade")
@@ -35,3 +34,47 @@ else:
 
 if (idade >= 18) {
    console.log("Maior de idade");
+} else if (idade >= 16) {
+   console.log("Pode votar");
+} else {
+   console.log("Menor de idade");
+}
+
+let dia = 2;
+switch (dia) {
+  case 1:
+    console.log("Domingo");
+    break;
+  case 2:
+    console.log("Segunda");
+    break;
+  default:
+    console.log("Outro dia");
+}
+
+for i in range(5):
+   print(i)
+# while
+contador = 0
+while contador < 5:
+   print(contador)
+   contador += 1
+
+// for
+for (let i = 0; i < 5; i++) {
+   console.log(i);
+}
+
+// while
+let contador = 0;
+while (contador < 5) {
+   console.log(contador);
+   contador++;
+}
+
+// do while
+let x = 0;
+do {
+   console.log(x);
+x++;
+} while (x < 5);
